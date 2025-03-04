@@ -29,7 +29,7 @@ PHASES = {
     "attempt1": {
         "type": "text_area",
         "height": 200,
-        "label": """Question 1: Which classification algorithms would you use?""",
+        "label": """Question 2: Which classification algorithm(s) would you use?""",
         "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms/models: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithm/models they would use. Evaluate their response and provide feedback about the algorithms/models they propose within the context of the specific algorithms/models they have learned (described above). """,
         "value": " ",
         "scored_phase": False,
@@ -43,7 +43,7 @@ PHASES = {
 ######## AI CONFIGURATION #############
 
 ########## AI ASSISTANT CONFIGURATION #######
-ASSISTANT_NAME = "testing_v1_1"
+ASSISTANT_NAME = "sc4x_wk10_CaseStudy_ML"
 ASSISTANT_INSTRUCTIONS = """ You are an expert in machine learning and overseeing a course where students are learning the basics of machine learning. """
 
 LLM_CONFIGURATION = {
