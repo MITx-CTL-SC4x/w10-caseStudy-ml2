@@ -1,7 +1,7 @@
 # SC4x | Week 10 | Case Study | ML 2
 
 ## Overview
-The app evaluates and provides feedback on a single SQL query using an AI API (OpenAI, Gemini, or Claude).
+This app uses an AI API (OpenAI, Gemini, or Claude) to provide feedback on an open response question about machine learning: Which classification algorithm(s) would you use?
 
 ## Prerequisites
 - Python 3.6 or later
