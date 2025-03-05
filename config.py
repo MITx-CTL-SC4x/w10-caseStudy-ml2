@@ -29,8 +29,32 @@ PHASES = {
     "attempt1": {
         "type": "text_area",
         "height": 200,
-        "label": """Which classification algorithm(s) would you use?""",
-        "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms/models: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithm/models they would use to predict if an order may be delivered late or not. Evaluate their response and provide feedback about the algorithms/models they propose within the context of the specific algorithms/models they have learned (described above). Suggest additional algorithms if they do not mention all four (tree models, random forest, Naïve Bayes, and K-nearest neighbors). """,
+        "label": """What classification algorithm(s) would you use?""",
+        "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms in the course: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithms they would use to predict if an order may be delivered late or not. Evaluate their response and provide feedback about the algorithms they propose within the context of the specific algorithms they have learned (described above). Suggest additional algorithms if they do not mention all four (tree models, random forest, Naïve Bayes, and K-nearest neighbors). This is the student's first submission. They can follow up two more times. """,
+        "value": " ",
+        "scored_phase": False,
+        "rubric": """
+            None
+        """,
+        "minimum_score": 2
+    },
+    "attempt2": {
+        "type": "text_area",
+        "height": 200,
+        "label": """Do you have any follow up comments or want clarification on the previous feedback?""",
+        "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms in the course: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithms they would use to predict if an order may be delivered late or not. Evaluate their response and provide feedback about the algorithms they propose within the context of the specific algorithms they have learned (described above). Suggest additional algorithms if they do not mention all four (tree models, random forest, Naïve Bayes, and K-nearest neighbors). This is the student's second submission. They can follow up one more times. """,
+        "value": " ",
+        "scored_phase": False,
+        "rubric": """
+            None
+        """,
+        "minimum_score": 2
+    },
+    "attempt3": {
+        "type": "text_area",
+        "height": 200,
+        "label": """Do you have any follow up comments or want clarification on the previous feedback?""",
+        "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms in the course: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithms they would use to predict if an order may be delivered late or not. Evaluate their response and provide feedback about the algorithms they propose within the context of the specific algorithms they have learned (described above). Suggest additional algorithms if they do not mention all four (tree models, random forest, Naïve Bayes, and K-nearest neighbors). This is the student's last submission. They can't ask again. """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
@@ -44,7 +68,7 @@ PHASES = {
 
 ########## AI ASSISTANT CONFIGURATION #######
 ASSISTANT_NAME = "sc4x_wk10_CaseStudy_ML"
-ASSISTANT_INSTRUCTIONS = """ You are an expert in machine learning and overseeing a course where students are learning the basics of machine learning. """
+ASSISTANT_INSTRUCTIONS = """ You are an expert in machine learning and the instructor of a course where students are learning the basics of machine learning. """
 
 LLM_CONFIGURATION = {
     "gpt-4-turbo":{
