@@ -29,8 +29,8 @@ PHASES = {
     "attempt1": {
         "type": "text_area",
         "height": 200,
-        "label": """Question 2: Which classification algorithm(s) would you use?""",
-        "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms/models: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithm/models they would use. Evaluate their response and provide feedback about the algorithms/models they propose within the context of the specific algorithms/models they have learned (described above). """,
+        "label": """Which classification algorithm(s) would you use?""",
+        "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms/models: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithm/models they would use to predict if an order may be delivered late or not. Evaluate their response and provide feedback about the algorithms/models they propose within the context of the specific algorithms/models they have learned (described above). Suggest additional algorithms if they do not mention all four (tree models, random forest, Naïve Bayes, and K-nearest neighbors). """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
