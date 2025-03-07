@@ -41,7 +41,7 @@ PHASES = {
     "attempt2": {
         "type": "text_area",
         "height": 200,
-        "label": """Do you have any follow up comments or want clarification on the previous feedback?""",
+        "label": """Do you have any follow-up comments or want clarification on the previous feedback?""",
         "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms in the course: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithms they would use to predict if an order may be delivered late or not. Evaluate their response and provide feedback about the algorithms they propose within the context of the specific algorithms they have learned (described above). Suggest additional algorithms if they do not mention all four (tree models, random forest, Naïve Bayes, and K-nearest neighbors). This is the student's second submission. They can follow up one more times. """,
         "value": " ",
         "scored_phase": False,
@@ -53,7 +53,7 @@ PHASES = {
     "attempt3": {
         "type": "text_area",
         "height": 200,
-        "label": """Do you have any follow up comments or want clarification on the previous feedback?""",
+        "label": """Do you have any final comments or questions?""",
         "instructions": """ The students are using machine learning for a classification problem. They have only learned about these specific algorithms in the course: tree models, random forest, Naïve Bayes, and K-nearest neighbor (kNN). They are asked to briefly describe which machine learning algorithms they would use to predict if an order may be delivered late or not. Evaluate their response and provide feedback about the algorithms they propose within the context of the specific algorithms they have learned (described above). Suggest additional algorithms if they do not mention all four (tree models, random forest, Naïve Bayes, and K-nearest neighbors). This is the student's last submission. They can't ask again. """,
         "value": " ",
         "scored_phase": False,
